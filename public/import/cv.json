@@ -1,0 +1,140 @@
+{
+    "basics": {
+        "name": "Florian Girard",
+        "label": "Développeur Web Fullstack",
+        "email": "florian.girard.dev@outlook.fr",
+        "phone": "06 60 45 56 64",
+        "url": "https://florian-girard.welovedevs.com",
+        "summary": "Développeur Web Full Stack avec un parcours permettant de travailler sur différents projets avec plusieurs technologies. Motivé à apprendre plus et à relever de nouveaux défis pour solidifier mes connaissances et contribuer à de nouveaux projets en équipe.",
+        "location": {
+            "address": "44340 Bouguenais",
+            "countryCode": "FR",
+            "region": "France"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "Fl0-dev",
+                "url": "https://github.com/Fl0-dev"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "florian-girard-dev",
+                "url": "https://linkedin.com/in/florian-girard-dev"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Lamacompta",
+            "position": "Développeur Web",
+            "url": "",
+            "startDate": "2022-12-01",
+            "endDate": "2023-04-03",
+            "summary": "Mise en place d’une V2 pour Lamacompta.co sous Strapi et Gatsby. Implémentation du moteur Algolia, GoogleTagManager, et des apis Google. Prise en compte des pratiques pour un meilleur référencement.",
+            "highlights": [
+                "Implémentation d'Algolia pour la recherche côté front",
+                "Utilisation de SSR pour un meilleur référencement"
+            ]
+        },
+        {
+            "name": "Lamacompta",
+            "position": "Développeur Web (Alternance)",
+            "startDate": "2021-11-01",
+            "endDate": "2022-12-01",
+            "summary": "Amélioration et maintenance de Lamacompta.co. Création d’un back sous ApiPlatform pour gérer les données et permettre un matching automatique.",
+            "highlights": [
+                "Création d’un blog Wordpress avec thème custom",
+                "Mise en place d’API pour récupérer et diffuser des offres"
+            ]
+        },
+        {
+            "name": "C2L Solutions",
+            "position": "Développeur Web (Stage)",
+            "startDate": "2021-09-01",
+            "endDate": "2021-11-01",
+            "summary": "Maintenance et développement d’une API pour récupérer les nouvelles offres de marché public et hydrater la base de données.",
+            "highlights": [
+                "Déploiement d’une API sur Heroku"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "3W Academy",
+            "url": "",
+            "area": "Concepteur d’Application",
+            "studyType": "Titre Bac+3/4",
+            "startDate": "2021-01-01",
+            "endDate": "2022-01-01"
+        },
+        {
+            "institution": "ENI École Informatique",
+            "url": "",
+            "area": "Développeur Web et Web Mobile",
+            "studyType": "Titre Bac+2",
+            "startDate": "2020-01-01",
+            "endDate": "2021-01-01"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Développement Web",
+            "level": "Compétent",
+            "keywords": [
+                "PHP",
+                "TypeScript",
+                "Symfony",
+                "Gatsby",
+                "ApiPlatform",
+                "React",
+                "Vue",
+                "PostgreSQL",
+                "Tailwind",
+                "Bootstrap",
+                "Wordpress",
+                "Git"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional working proficiency"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Jeux vidéo",
+            "keywords": [
+                "Challenge",
+                "Mécaniques de jeu"
+            ]
+        },
+        {
+            "name": "Cuisine",
+            "keywords": [
+                "Convivialité",
+                "Partage"
+            ]
+        },
+        {
+            "name": "Culture",
+            "keywords": [
+                "Séries/Cinéma",
+                "Lecture"
+            ]
+        },
+        {
+            "name": "Basket",
+            "keywords": [
+                "Equipe",
+                "Progression"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+<section class="bg-gray-900 text-white">
+	<div class="space-y-6 mx-auto max-w-3xl text-center px-4 pb-12">
+		<h2 class="text-3xl font-bold sm:text-4xl">Compétences</h2>
+		{% for skill in cv.skills %}
+			<div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2">
+				{% for keyword in skill.keywords %}
+					<article class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] dark:shadow-gray-700/25">
+						<div class="rounded-[10px] bg-white p-4 sm:p-6 dark:bg-gray-900">
+							<h3 class="text-xl font-semibold">{{ keyword }}</h3>
+						</div>
+					</article>
+				{% endfor %}
+			</div>
+		{% endfor %}
+	</div>
+</section>

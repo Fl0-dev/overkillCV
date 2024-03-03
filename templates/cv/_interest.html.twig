@@ -1,0 +1,21 @@
+<section class="bg-gray-900 text-white">
+	<div class="space-y-2 mx-auto max-w-3xl text-center pb-12 px-4">
+		<h2 class="text-3xl font-bold sm:text-4xl pb-4">Soft skills</h2>
+		<div class="bg-gray-900 text-white">
+			<article class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition">
+				<div class="grid grid-cols-2 gap-2 rounded-[10px] bg-gray-100 p-6 dark:bg-gray-900 sm:p-6">
+					{% for item in cv.interests %}
+						<figure class="flex flex-col justify-center">
+							<blockquote class="max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
+								<h3 class="text-lg font-semibold text-white">{{item.name}}</h3>
+								{% for keyword in item.keywords %}
+									<p class="mt-2">{{ keyword }}</p>
+								{% endfor %}
+							</blockquote>
+						</figure>
+					{% endfor %}
+				</div>
+			</article>
+		</div>
+	</div>
+</section>

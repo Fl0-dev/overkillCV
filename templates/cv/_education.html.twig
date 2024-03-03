@@ -1,0 +1,22 @@
+<section class="bg-gray-900 text-white">
+	<div class="space-y-2 mx-auto max-w-3xl text-center px-4 pb-12">
+		<h2 class="text-3xl font-bold sm:text-4xl pb-4">Educations</h2>
+		{% for education in cv.education %}
+			<article class="rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition">
+				<div class="rounded-[10px] bg-gray-100 p-4 dark:bg-gray-900 sm:p-6">
+					<p class="block text-xs text-gray-500 dark:text-gray-400">
+						{{ education.startDate | date('d-m-Y') }}
+						au
+						{{ education.endDate | date('d-m-Y') }}
+					</p>
+					<h3 class="mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
+						{{ education.area }}
+						{{ education.studyType }}
+						à
+						{{ education.institution }}
+					</h3>
+				</div>
+			</article>
+		{% endfor %}
+	</div>
+</section>
